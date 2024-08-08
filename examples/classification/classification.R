@@ -70,7 +70,7 @@ samples_ts <- sits_get_data(
 )
 
 #
-# 6. View time-series
+# 5. View time-series
 #
 plot(samples_ts)
 
@@ -110,7 +110,7 @@ class_map <- sits_mosaic(
 )
 
 #
-# 9. View results
+# 10. View results
 #
 
 # Static plot
