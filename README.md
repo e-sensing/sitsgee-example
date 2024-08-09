@@ -15,11 +15,11 @@ To get started with the examples in this repository, first clone the
 repository:
 
 ``` sh
-git clone https://github.com/e-sensing/sits-gee.git
+git clone https://github.com/e-sensing/sitsgee-example.git
 ```
 
-Next, open the `sits-gee` directory in the RStudio and install the
-examples package:
+Next, open the `sitsgee-example` directory in the RStudio and install
+the examples package:
 
 ``` r
 devtools::install(".")
