@@ -71,7 +71,7 @@ var classCollection = temporalCollection.classify(classifier);
 classCollection = classCollection.clip(roiData);
 
 //
-// 8. View results
+// 9. View results
 //
 
 // Define view region
@@ -86,7 +86,7 @@ Map.addLayer(classCollection, {
 
 
 //
-// 9. Export results
+// 10. Export results
 //
 Export.image.toDrive({
   image: classCollection.toInt(),
