@@ -16,8 +16,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-This repository showcases reproducible comparisons of the sits R package and the
-Google Earth Engine.
+Side-by-side examples of the sits and Google Earth Engine APIs.
 
 ## Getting started
 
