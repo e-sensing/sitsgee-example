@@ -63,6 +63,11 @@ var classifier = ee.Classifier.smileRandomForest(100).train({
 //
 // 7. Classify data
 //
+
+// probabilities
+var probsCollection = temporalCollection.classify(classifier.setOutputMode("MULTIPROBABILITY"));
+
+// classes
 var classCollection = temporalCollection.classify(classifier);
 
 //
